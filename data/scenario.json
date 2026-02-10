@@ -1,0 +1,1218 @@
+{
+  "start_scene": "main_view",
+  "scenes": {
+    "main_view": {
+      "image": "Front_00.jpg",
+      "title": "ATH530 Breakout",
+      "hotspots": [
+        {
+          "rect": [
+            73.1,
+            86.74,
+            null,
+            null
+          ],
+          "target_scene": "Front_01.jpg",
+          "label": ""
+        },
+        {
+          "rect": [
+            40.88,
+            53.45,
+            30.09,
+            16.63
+          ],
+          "target_scene": "Front_02.jpg",
+          "label": "Open Tube Holder Cover",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            10.62,
+            14.45,
+            72.28,
+            63.86
+          ],
+          "target_scene": "Front_01.jpg",
+          "label": "Open Front Cover",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            73.33,
+            12.6,
+            21.18,
+            9.12
+          ],
+          "target_scene": "Front_12.jpg",
+          "label": "Rack output",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            11.2,
+            87.91,
+            10.25,
+            63.28
+          ],
+          "target_scene": "RightSide_01.jpg",
+          "label": "To the Right Side",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            10.51,
+            2.68,
+            9.75,
+            62.47
+          ],
+          "target_scene": "LeftSide_01.jpg",
+          "label": "To the Left Side",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            60.39,
+            27.06,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "USB Device : FAT32 or NTFS"
+        }
+      ]
+    },
+    "Front_01.jpg": {
+      "image": "Front_01.jpg",
+      "title": "Front_01.jpg",
+      "hotspots": [
+        {
+          "rect": [
+            48.85,
+            53.77,
+            28.48,
+            20.55
+          ],
+          "target_scene": "Front_02.jpg",
+          "label": "Open the Tube Holder Cover",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            43.53,
+            48.23,
+            41.11,
+            53.58
+          ],
+          "target_scene": "Front_04.jpg",
+          "label": "Remove the Front lower panel",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            18.48,
+            0.04,
+            16.78,
+            40.88
+          ],
+          "target_scene": "Front_07.jpg",
+          "label": "To the back side of the front panel",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            65.13,
+            20.82,
+            21.09,
+            7.85
+          ],
+          "target_scene": "Front_12.jpg",
+          "label": "",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            41.11,
+            28.83,
+            24.63,
+            21.13
+          ],
+          "target_scene": "Front_08.jpg",
+          "label": "Remove the Chamber Protection Cover",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            35.7,
+            53.89,
+            14.04,
+            7.44
+          ],
+          "target_scene": "Front_14.jpg",
+          "label": "Detach the Rinsing Block and Piercer",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            28.87,
+            63.01,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Carriage assembly / Sampling needle"
+        }
+      ]
+    },
+    "Front_02.jpg": {
+      "image": "Front_02.jpg",
+      "title": "Front_02.jpg",
+      "hotspots": [
+        {
+          "rect": [
+            39.03,
+            39.2,
+            27.93,
+            37.88
+          ],
+          "target_scene": "Front_03.jpg",
+          "label": "Detach the Tube Holder",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            54.39,
+            83.07,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Aspiration position / Back side"
+        },
+        {
+          "rect": [
+            71.05,
+            53.19,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Standard Tube Holder"
+        }
+      ]
+    },
+    "Front_04.jpg": {
+      "image": "Front_04.jpg",
+      "title": "Front_04.jpg",
+      "hotspots": [
+        {
+          "rect": [
+            29.91,
+            51.61,
+            14.37,
+            21.94
+          ],
+          "target_scene": "Front_05.jpg",
+          "label": "To the Piercer Motor",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            30.37,
+            28.36,
+            19.47,
+            27.14
+          ],
+          "target_scene": "Front_06.jpg",
+          "label": "To the Barcode Reader",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "Front_08.jpg": {
+      "image": "Front_08.jpg",
+      "title": "Front_08.jpg",
+      "hotspots": [
+        {
+          "rect": [
+            10.47,
+            21.89,
+            31.37,
+            21.31
+          ],
+          "target_scene": "Front_09.jpg",
+          "label": "",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            26.36,
+            32.42,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "LMNEB/HGB Chamber"
+        },
+        {
+          "rect": [
+            26.74,
+            50.84,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "RBC/PLT Chamber"
+        },
+        {
+          "rect": [
+            44.68,
+            27.37,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Manifold"
+        },
+        {
+          "rect": [
+            33.47,
+            41.47,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Thermic Thermistor"
+        },
+        {
+          "rect": [
+            57.32,
+            16.21,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Thermostatic Chamber Heater"
+        },
+        {
+          "rect": [
+            71.85,
+            35.02,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Hydr/Pneu Isolator (small)"
+        },
+        {
+          "rect": [
+            73.68,
+            48.23,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Hydr/Pneu Insulator 1/2 Orange Form"
+        },
+        {
+          "rect": [
+            42.68,
+            35.28,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "LED for Hgb"
+        }
+      ]
+    },
+    "RightSide_01.jpg": {
+      "image": "RightSide_01.jpg",
+      "title": "RightSide_01.jpg",
+      "hotspots": [
+        {
+          "rect": [
+            5.31,
+            94.84,
+            4.58,
+            64.9
+          ],
+          "target_scene": "Back_01.jpg",
+          "label": "To Back side",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            38.8,
+            34.77,
+            47.35,
+            20.79
+          ],
+          "target_scene": "RightSide_02.jpg",
+          "label": "Rack Loading Area",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            5.2,
+            34.2,
+            60.22,
+            72.06
+          ],
+          "target_scene": "RightSide_04.jpg",
+          "label": "Open Right Side Cover",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "RightSide_02.jpg": {
+      "image": "RightSide_02.jpg",
+      "title": "RightSide_02.jpg",
+      "hotspots": [
+        {
+          "rect": [
+            47.9,
+            20.16,
+            60.11,
+            35.08
+          ],
+          "target_scene": "RightSide_03.jpg",
+          "label": "Load Rack",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "RightSide_03.jpg": {
+      "image": "RightSide_03.jpg",
+      "title": "RightSide_03.jpg",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            53.61,
+            23.84,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Load racks further than this line"
+        },
+        {
+          "rect": [
+            48.7,
+            89.53,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Auto Loader Cover Sensor"
+        }
+      ]
+    },
+    "Back_01.jpg": {
+      "image": "Back_01.jpg",
+      "title": "Back_01.jpg",
+      "hotspots": [
+        {
+          "rect": [
+            28.52,
+            24.34,
+            43.57,
+            46.88
+          ],
+          "target_scene": "Back_02.jpg",
+          "label": "Open Back Cover",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            58.81,
+            0.45,
+            8.56,
+            16.25
+          ],
+          "target_scene": "Front_13.jpg",
+          "label": "To the Waste Container",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            6.01,
+            90.86,
+            8.84,
+            63.07
+          ],
+          "target_scene": "LeftSide_01.jpg",
+          "label": "To the Left Side",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "LeftSide_01.jpg": {
+      "image": "LeftSide_01.jpg",
+      "title": "LeftSide_01.jpg",
+      "hotspots": [
+        {
+          "rect": [
+            78.06,
+            7.28,
+            69.4,
+            19.52
+          ],
+          "target_scene": "LeftSide_02.jpg",
+          "label": "Open Rack output cover",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            10.16,
+            8.17,
+            67.46,
+            66.17
+          ],
+          "target_scene": "LeftSide_03.jpg",
+          "label": "Open Left Side Cover",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            10.62,
+            0.15,
+            7.58,
+            62.47
+          ],
+          "target_scene": "Back_01.jpg",
+          "label": "To Back Side",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "LeftSide_02.jpg": {
+      "image": "LeftSide_02.jpg",
+      "title": "LeftSide_02.jpg",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            55.7,
+            14.63,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Rack Full Sensors"
+        },
+        {
+          "rect": [
+            53.88,
+            88.63,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Rack Full Sensor"
+        }
+      ]
+    },
+    "LeftSide_03.jpg": {
+      "image": "LeftSide_03.jpg",
+      "title": "LeftSide_03.jpg",
+      "hotspots": [
+        {
+          "rect": [
+            32.56,
+            5.04,
+            26.27,
+            47.69
+          ],
+          "target_scene": "LeftSide_05.jpg",
+          "label": "Pressure/Vacuum Pump",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            37.88,
+            34.91,
+            60.49,
+            41.57
+          ],
+          "target_scene": "LeftSide_06.jpg",
+          "label": "Reagent Area",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            15.59,
+            23.21,
+            62.29,
+            15.59
+          ],
+          "target_scene": "Optical_03.jpg",
+          "label": "LMNE Optical block",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            74.71,
+            19.6,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Pressure / Vacuum Pump"
+        },
+        {
+          "rect": [
+            60.97,
+            55.03,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "LMNEB Block"
+        },
+        {
+          "rect": [
+            56.47,
+            76.79,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Reagent Block"
+        },
+        {
+          "rect": [
+            25.17,
+            47.99,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Pressure Sensor"
+        }
+      ]
+    },
+    "Optical_03.jpg": {
+      "image": "Optical_03.jpg",
+      "title": "Optical_03.jpg",
+      "hotspots": [
+        {
+          "rect": [
+            25.24,
+            40.53,
+            10.11,
+            30.1
+          ],
+          "target_scene": "Optical_05.jpg",
+          "label": "Flowcell",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            8.04,
+            19.05,
+            51.68,
+            14.58
+          ],
+          "target_scene": "Optical_01.jpg",
+          "label": "Optical Top View",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            3.32,
+            70.32,
+            11.72,
+            51.6
+          ],
+          "target_scene": "Optical_08.jpg",
+          "label": "LMNEB Preamplification board",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            30.85,
+            22.95,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Isolator"
+        },
+        {
+          "rect": [
+            39.45,
+            76.21,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "LMNEB Amplifier board"
+        }
+      ]
+    },
+    "Optical_05.jpg": {
+      "image": "Optical_05.jpg",
+      "title": "Optical_05.jpg",
+      "hotspots": [
+        {
+          "rect": [
+            35.22,
+            28.37,
+            30.02,
+            57.62
+          ],
+          "target_scene": "Optical_06.jpg",
+          "label": "Remove Flowcel",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "RightSide_04.jpg": {
+      "image": "RightSide_04.jpg",
+      "title": "RightSide_04.jpg",
+      "hotspots": [
+        {
+          "rect": [
+            6.35,
+            9.66,
+            79.32,
+            32.91
+          ],
+          "target_scene": "RightSide_09.jpg",
+          "label": "Main Board",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            74.02,
+            54.55,
+            39.27,
+            12.93
+          ],
+          "target_scene": "RightSide_06.jpg",
+          "label": "I/O Board",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            41.22,
+            65.96,
+            11.22,
+            23.21
+          ],
+          "target_scene": "RightSide_07.jpg",
+          "label": "To Mixer Motor",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            65.24,
+            50.1,
+            31.15,
+            7.27
+          ],
+          "target_scene": "RightSide_08.jpg",
+          "label": "To Loader and Transfer motors",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            66.05,
+            22.24,
+            20.12,
+            9.24
+          ],
+          "target_scene": "RightSide_10.jpg",
+          "label": "",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "RightSide_06.jpg": {
+      "image": "RightSide_06.jpg",
+      "title": "RightSide_06.jpg",
+      "hotspots": [
+        {
+          "rect": [
+            30.59,
+            21.37,
+            51.89,
+            9.61
+          ],
+          "target_scene": "RightSide_05.jpg",
+          "label": "I/O Top View",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            51.73,
+            30.21,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Battery"
+        }
+      ]
+    },
+    "Front_05.jpg": {
+      "image": "Front_05.jpg",
+      "title": "Front_05.jpg",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            17.29,
+            59.63,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "\"No tube\" Bacode Label"
+        }
+      ]
+    },
+    "Front_06.jpg": {
+      "image": "Front_06.jpg",
+      "title": "Front_06.jpg",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            45.05,
+            2.68,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Barcode Reader"
+        },
+        {
+          "rect": [
+            9.64,
+            54.89,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Barcode Reader Mirror"
+        }
+      ]
+    },
+    "RightSide_09.jpg": {
+      "image": "RightSide_09.jpg",
+      "title": "RightSide_09.jpg",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            36.08,
+            66.32,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Jumper / Right : 520OT, Left:520CT, No jumper : 530"
+        },
+        {
+          "rect": [
+            3.74,
+            68.53,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Micro SD : Main"
+        }
+      ]
+    },
+    "RightSide_07.jpg": {
+      "image": "RightSide_07.jpg",
+      "title": "RightSide_07.jpg",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            18.82,
+            71.43,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Mixer Motor"
+        }
+      ]
+    },
+    "RightSide_08.jpg": {
+      "image": "RightSide_08.jpg",
+      "title": "RightSide_08.jpg",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            56.46,
+            44.53,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Rack Loading Motor"
+        },
+        {
+          "rect": [
+            51.98,
+            58.32,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Rack Transfer Motor"
+        }
+      ]
+    },
+    "RightSide_05.jpg": {
+      "image": "RightSide_05.jpg",
+      "title": "RightSide_05.jpg",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            38.45,
+            15.76,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Micro SD for I/O board"
+        }
+      ]
+    },
+    "Back_02.jpg": {
+      "image": "Back_02.jpg",
+      "title": "Back_02.jpg",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            61.89,
+            18.52,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Rack Detection Sensor"
+        }
+      ]
+    },
+    "LeftSide_06.jpg": {
+      "image": "LeftSide_06.jpg",
+      "title": "LeftSide_06.jpg",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            70.67,
+            19.53,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "LMNEB impedance sheath syringe"
+        },
+        {
+          "rect": [
+            70.9,
+            26.84,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "LMNEB Optical Sheath Syringe"
+        },
+        {
+          "rect": [
+            70.9,
+            34.8,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "LMNEB Sample syringe"
+        },
+        {
+          "rect": [
+            64.55,
+            45.63,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "DIF reagent syringe"
+        },
+        {
+          "rect": [
+            64.9,
+            55.02,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "DIL syringe"
+        },
+        {
+          "rect": [
+            64.78,
+            64.29,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Sample syringe"
+        },
+        {
+          "rect": [
+            78.98,
+            79.95,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Reagent Heater"
+        }
+      ]
+    },
+    "Optical_01.jpg": {
+      "image": "Optical_01.jpg",
+      "title": "Optical_01.jpg",
+      "hotspots": [
+        {
+          "rect": [
+            39.02,
+            72.77,
+            7.02,
+            42.22
+          ],
+          "target_scene": "Optical_08.jpg",
+          "label": "LMNEB Pre-amplification Board",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            51.03,
+            54.54,
+            3.03,
+            10.53
+          ],
+          "target_scene": "Optical_07.jpg",
+          "label": "Detach the Flowcell",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            62.45,
+            15.58,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "LED"
+        },
+        {
+          "rect": [
+            47.68,
+            56.32,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Flowcell"
+        }
+      ]
+    },
+    "Front_07.jpg": {
+      "image": "Front_07.jpg",
+      "title": "Front_07.jpg",
+      "hotspots": [],
+      "annotations": [
+        {
+          "rect": [
+            89.93,
+            43.8,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Front USB Board"
+        },
+        {
+          "rect": [
+            20.71,
+            29.98,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Touch Panel Controller"
+        }
+      ]
+    },
+    "Front_14.jpg": {
+      "image": "Front_14.jpg",
+      "title": "Front_14.jpg",
+      "hotspots": [
+        {
+          "rect": [
+            33.87,
+            45.96,
+            25.48,
+            18.54
+          ],
+          "target_scene": "Front_15.jpg",
+          "label": "To the top view",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            61.67,
+            47.33,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Piercing needle"
+        },
+        {
+          "rect": [
+            39.47,
+            63.35,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Rinsing Block"
+        }
+      ]
+    },
+    "Front_15.jpg": {
+      "image": "Front_15.jpg",
+      "title": "Front_15.jpg",
+      "hotspots": [
+        {
+          "rect": [
+            43.94,
+            31.92,
+            39.05,
+            27.57
+          ],
+          "target_scene": "Front_14.jpg",
+          "label": "To the Bottom view",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "LeftSide_05.jpg": {
+      "image": "LeftSide_05.jpg",
+      "title": "LeftSide_05.jpg",
+      "hotspots": [
+        {
+          "rect": [
+            8.58,
+            21.86,
+            30.08,
+            61.21
+          ],
+          "target_scene": "LeftSide_07.jpg",
+          "label": "Detach the Pump Piston",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": [
+        {
+          "rect": [
+            59.27,
+            13.93,
+            0,
+            0
+          ],
+          "target_scene": "",
+          "type": "annotation",
+          "text": "Ambient Thermistor"
+        }
+      ]
+    }
+  }
+}
