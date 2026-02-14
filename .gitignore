@@ -1,0 +1,4 @@
+
+# 外部ライブラリも不要（npm installで入るので）
+node_modules/
+
