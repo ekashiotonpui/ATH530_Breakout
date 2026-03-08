@@ -151,8 +151,19 @@
             14.04,
             7.44
           ],
-          "target_scene": "Front_14.jpg",
-          "label": "Detach the Rinsing Block and Piercer",
+          "target_scene": "Front_17.jpg",
+          "label": "Detach the Rinsing block",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            20.44,
+            58.33,
+            9.03,
+            14.6
+          ],
+          "target_scene": "Front_15.jpg",
+          "label": "Detach the aspiration needle",
           "type": "hotspot"
         }
       ],
@@ -661,7 +672,7 @@
             11.72,
             51.6
           ],
-          "target_scene": "Optical_08.jpg",
+          "target_scene": "Optical_11.jpg",
           "label": "LMNEB Preamplification board",
           "type": "hotspot"
         }
@@ -963,7 +974,30 @@
     "LeftSide_06.jpg": {
       "image": "LeftSide_06.jpg",
       "title": "LeftSide_06.jpg",
-      "hotspots": [],
+      "hotspots": [
+        {
+          "rect": [
+            67.76,
+            42.54,
+            27.72,
+            16.71
+          ],
+          "target_scene": "LeftSide_09.jpg",
+          "label": "Remove the cover",
+          "type": "hotspot"
+        },
+        {
+          "rect": [
+            41.24,
+            13.63,
+            26.4,
+            35.05
+          ],
+          "target_scene": "LeftSide_08.jpg",
+          "label": "Detach pistons",
+          "type": "hotspot"
+        }
+      ],
       "annotations": [
         {
           "rect": [
@@ -1069,6 +1103,17 @@
           "target_scene": "Optical_07.jpg",
           "label": "Detach the Flowcell",
           "type": "hotspot"
+        },
+        {
+          "rect": [
+            41.05,
+            11.28,
+            12.81,
+            23.46
+          ],
+          "target_scene": "Optical_09.jpg",
+          "label": "Detach the LED board",
+          "type": "hotspot"
         }
       ],
       "annotations": [
@@ -1169,19 +1214,7 @@
     "Front_15.jpg": {
       "image": "Front_15.jpg",
       "title": "Front_15.jpg",
-      "hotspots": [
-        {
-          "rect": [
-            43.94,
-            31.92,
-            39.05,
-            27.57
-          ],
-          "target_scene": "Front_14.jpg",
-          "label": "To the Bottom view",
-          "type": "hotspot"
-        }
-      ],
+      "hotspots": [],
       "annotations": []
     },
     "LeftSide_05.jpg": {
@@ -1213,6 +1246,42 @@
           "text": "Ambient Thermistor"
         }
       ]
+    },
+    "Front_09.jpg": {
+      "image": "Front_09.jpg",
+      "title": "Front_09.jpg",
+      "hotspots": [
+        {
+          "rect": [
+            23.88,
+            55.62,
+            19.03,
+            57.81
+          ],
+          "target_scene": "Front_16.jpg",
+          "label": "Remove aperture",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
+    },
+    "Optical_11.jpg": {
+      "image": "Optical_11.jpg",
+      "title": "Optical_11.jpg",
+      "hotspots": [
+        {
+          "rect": [
+            30.96,
+            44.78,
+            44.39,
+            55.26
+          ],
+          "target_scene": "Optical_10.jpg",
+          "label": "",
+          "type": "hotspot"
+        }
+      ],
+      "annotations": []
     }
   }
 }
